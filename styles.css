@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    margin: 0;
+    /* Remove default margin from body */
+    height: 100vh;
+    /* Set the height of body to the viewport height */
+    background-position: center;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: #b3d663;
+    text-align: center;
+    margin: 15px;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1.5vmin;
+    border: 2px solid #b3d663;
+    border-radius: 1rem;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    color: rgb(12, 68, 20);
+    background-color: #b3d663;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#New-Game {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#Reset-Game {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+h2 {
+    color: wheat;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+/*
+#Reset-Game{
+    box-sizing: content-box;
+    padding: 2vmin;
+    margin: 5vmin;
+    height: 4vmin;
+    width: 18vmin;
+    border: none;
+    background-color: #b3d663;
+    color: black;
+    font-weight: bold;
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    border-radius: 1vmin;
+}*/
